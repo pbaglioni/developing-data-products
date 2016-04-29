@@ -1,0 +1,17 @@
+{
+    "contents" : "presentation.md\nDeveloping Data Products - Course Project\n========================================================\nauthor: Paolo Baglioni\ndate: `r date()`\ntransition: rotate\nwidth: 1440\nheight: 900\n\n\nStorm Database Analysis\n========================================================\ntype: sub-section\n\nThis presentation is being created as part of the peer assessment for the coursera developing data products class. The assignment is geared toward ensuring the following concepts were well understood by the students\n\n- **shiny** to build data product application\n- **R-Presentation or slidify** to create data product related presentations\n\nThe Application\n========================================================\ntype: sub-section\nThe application developed for the first part of the assignment is called **Storm Database Analysis** and is avalilable at: \nhttps://pbaglioni.shinyapps.io/developing-data-products-shiny/\n\nThe application allows the user to:\n- Select the inputs like range of years or types of events. \n- Select the output to be displayed on the map, as a graph or as a table \n- Use the option to download the filtered data.\n\n\nThe Data\n========================================================\ntype: sub-section\nThis application is based on the U.S. National Oceanic and Atmospheric Administration's (NOAA) storm database.\n\nDataset should be obtained from [here](https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2FStormData.csv.bz2) and processed for the course project. This dataset is the same used for the Cousera's Reproducible Research Course.\n\nSource code for ui.R and server.R files are available on the [GitHub](https://github.com/pbaglioni/developing-data-products).\n\nData\n=====================\ntype: sub-section\nRead Data\n```{r}\nlibrary(data.table)\ndt <- fread('events.agg.csv')\nhead(dt)\n```\n\n\n\n",
+    "created" : 1461932459078.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3604150752",
+    "id" : "FA81D188",
+    "lastKnownWriteTime" : 1461933763,
+    "path" : "C:/Users/baglioni/Desktop/developing-data-products-shiny/Presentation/presentation.md.Rpres",
+    "project_path" : "Presentation/presentation.md.Rpres",
+    "properties" : {
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "type" : "r_presentation"
+}

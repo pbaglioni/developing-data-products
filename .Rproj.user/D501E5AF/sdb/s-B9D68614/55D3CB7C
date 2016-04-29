@@ -1,0 +1,17 @@
+{
+    "contents" : "library(shiny)\nlibrary(rCharts)\nlibrary(data.table)\n\n\nshinyUI(\n  navbarPage(\"Storm Database Analysis\",tabPanel(\"Plot\",\n                                                sidebarPanel(sliderInput(\"range\", \"Range:\", min = 1950, max = 2011, \n                                                                         value = c(1993, 2011),format=\"####\"),uiOutput(\"evtypeControls\")),\n                                                \n                                                mainPanel(tabsetPanel(tabPanel('By state',column(3,wellPanel(radioButtons(\"populationCategory\",\n                                                                                                                          \"Population impact category:\",c(\"Both\" = \"both\", \"Injuries\" = \"injuries\", \"Fatalities\" = \"fatalities\")))),\n                                                                               column(3,wellPanel(radioButtons(\"economicCategory\",\"Economic impact category:\",\n                                                                                                               c(\"Both\" = \"both\", \"Property damage\" = \"property\", \"Crops damage\" = \"crops\")))),\n                                                                               column(7,plotOutput(\"populationImpactByState\"),plotOutput(\"economicImpactByState\"))),\n                                                                      \n                                                                      tabPanel('By year',h4('Number of events by year', align = \"center\"),showOutput(\"eventsByYear\", \"nvd3\"),\n                                                                               h4('Population impact by year', align = \"center\"),showOutput(\"populationImpact\", \"nvd3\"),\n                                                                               h4('Economic impact by year', align = \"center\"),showOutput(\"economicImpact\", \"nvd3\")),\n                                                                      \n                                                                      tabPanel('Data',dataTableOutput(outputId=\"table\"),downloadButton('downloadData', 'Download'))))),\n             \n             tabPanel(\"About\",mainPanel(includeMarkdown(\"README.md\"))))\n)",
+    "created" : 1461854565264.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3015656688",
+    "id" : "55D3CB7C",
+    "lastKnownWriteTime" : 1461858235,
+    "path" : "C:/Users/baglioni/Desktop/developing-data-products-shiny/ui.R",
+    "project_path" : "ui.R",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

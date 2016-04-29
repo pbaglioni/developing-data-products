@@ -1,0 +1,17 @@
+{
+    "contents" : "Developing Data Prododucts - Course Project\n=========================\nDeveloping Data Products- Course Project\n\nStorm Data Analysis\n==================\n\nThis application is based on the U.S. National Oceanic and Atmospheric Administration's (NOAA) storm database.\n\nDataset should be obtained from [here](https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2FStormData.csv.bz2).\nThis is the same dataset used for the Cousera's Reproduciable Research Course.\n\nThe occurrence of storms and other significant weather phenomena having sufficient intensity to cause loss of life, injuries, significant property damage, and/or disruption to commerce.\n\nSource code for the project is available on the [GitHub](https://github.com/pbaglioni/developing-data-products).\n\nThe presentation for the project can be found [here](http://rpubs.com/pbaglioni/176879).\n\nYou can adjust date range and event types using control panel located on the left side. Filtered dataset can be downloaded using data tab.\n\n\n",
+    "created" : 1461858254482.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "180098203",
+    "id" : "D54EDECA",
+    "lastKnownWriteTime" : 1461934905,
+    "path" : "C:/Users/baglioni/Desktop/developing-data-products-shiny/README.md",
+    "project_path" : "README.md",
+    "properties" : {
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "type" : "markdown"
+}

@@ -1,0 +1,25 @@
+{
+    "contents" : "",
+    "created" : 1461856772627.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "489BF4FE",
+    "lastKnownWriteTime" : 7011605692497750387,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "hfaa4b7im9",
+        "caption" : "events.agg",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=events.agg&cache_key=hfaa4b7im9",
+        "displayedObservations" : 17614,
+        "environment" : "",
+        "object" : "events.agg",
+        "totalObservations" : 17614,
+        "variables" : 8
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}
