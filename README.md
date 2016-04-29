@@ -14,7 +14,7 @@ The occurrence of storms and other significant weather phenomena having sufficie
 
 Source code for the project is available on the [GitHub](https://github.com/pbaglioni/developing-data-products).
 
-The presentation for the project can be found [here](http://rpubs.com/pbaglioni/???).
+The presentation for the project can be found [here](http://rpubs.com/pbaglioni/176879).
 
 You can adjust date range and event types using control panel located on the left side. Filtered dataset can be downloaded using data tab.
 
